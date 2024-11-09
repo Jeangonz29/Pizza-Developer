@@ -1,8 +1,6 @@
-//solo me flata colocar la validacion de que vcuando se selccione la pizza mediana el precio se cambie
-//acutomaticamente a 3$ y cuando se selccione la grande en precio de ingrendientes extras tambien se cambie a 6$
+//solo me falta colocar la validacion de que cuando se seleccione la pizza mediana el precio de los ingredientes extras se cambie
+//automaticamente a 3$ y cuando se seleccione la grande en precio de ingrendientes extras tambien se cambie a 6$
 //cada una es el doble de la pequeña y sucesivamente, el de la pequeña es 1.5$
-
-
 
 function Presupuesto() {
     const pi = Math.PI;
