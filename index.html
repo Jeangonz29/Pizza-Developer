@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+    <link rel="stylesheet" href="style.css">
+       
+</head>
+<body>
+    <div class="container">
+        <h1 class="titulo">Pizza developer</h1>
+        <label class="subtitulo"><strong>Escoga el tamaño de la Pizza:</strong></label>
+        <br>
+        <select id="Tamaño">
+            <option value="10">Pequeña - (10cm)</option>
+            <option value="14">Mediana - (14cm)</option>
+            <option value="16">Grande - (16cm)</option>
+        </select>
+        <br>
+        <br>
+        <label class="subtitulo"><strong>Ingredientes Extras:</strong></label>
+        <br>
+        <input type="checkbox" id="champinones" value="1"> Champiñones<br>
+        <input type="checkbox" id="jamon" value="1"> Jamón<br>
+        <input type="checkbox" id="aceitunas" value="1"> Aceitunas<br>
+        <input type="checkbox" id="anchoas" value="1"> Anchoas<br>
+        <input type="checkbox" id="salchichon" value="1"> Salchichón<br>
+        <p><strong>Nota:</strong> Si no lleva extras, solo es salsa y queso</p>
+        <br>
+        <label class="subtitulo"><strong>Costo de Mano de Obra ($):</strong></label>
+        <input type="number" id="manoDeObra" value="1.5" step="0.1" min="1.5">
+        <br>
+        <br>
+        <label class="subtitulo"><strong>Costo de Ingredientes Extras ($):</strong></label>
+
+        <input type="number" id="costoExtras" value="1" step="0.1" min="1">
+        <br>
+        <br>
+        <button id="btnCosto" onclick="Presupuesto()">Calcular costo total</button>
+
+        <p id="Mostrar"></p>
+    </div>
+
+    <script src="pizza/pizza.js"></script>
+</body>
+</html>
