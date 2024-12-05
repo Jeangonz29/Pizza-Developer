@@ -4,7 +4,7 @@
 
 ## <p> Calcula el costo de una pizza pequeña, mediana y grande </p>
 <p> Esta validando si llevan ingredientes extras, las cantidades a pedir y su costo de manos de obra</p>
-
+ 
 <br>
 
 > Trabajamos con HTML5, CSS3 y JavaScript
